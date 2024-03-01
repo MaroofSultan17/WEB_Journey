@@ -1,0 +1,24 @@
+$default-main-color: #1d4670;
+$default-primary-color: #eee;
+$default-secondary-color: #6f42c1;
+$default-font-size: 1.2rem;
+$default-font-family: Helvetica, Arial, sans-serif;
+$default-border: 1px solid black;
+$default-fotter-bg-color: black;
+$default-border-radius: 5px;
+$default-padding: 10px;
+$default-hover-color: rgb(217, 217, 217);
+$default-a-tag-color: #4390df;
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import "header";
+@import "footer";
+@import "gallery";
+@import "feedback_form";
+@import "cui_statutary_sys";
+@import "contactus";

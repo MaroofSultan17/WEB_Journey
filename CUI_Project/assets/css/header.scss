@@ -1,0 +1,105 @@
+@mixin default-hover() {
+    color: $default-hover-color;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section {
+
+    .top-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: $default-secondary-color;
+        padding: $default-padding;
+    }
+
+    .date-format {
+        padding: 10px;
+        font-family: $default-font-family;
+        font-size: $default-font-size;
+        color: $default-primary-color;
+    }
+
+    .icon-set {
+        padding: $default-padding;
+        text-decoration: none;
+        color: $default-secondary-color;
+
+        a {
+            margin: 15px;
+            color: $default-primary-color;
+        }
+
+        a:hover {
+            @include default-hover();
+        }
+    }
+
+}
+
+// Top-Bar End
+
+// navbar start
+.nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: $default-main-color;
+    height: 70px;
+    padding: $default-padding;
+    align-items: center;
+
+    .logo {
+        align-self: center;
+    }
+
+    .nav {
+        .nav-item {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .nav-link {
+            margin: 10px;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: $default-primary-color;
+            font-family: $default-font-family;
+            font-size: $default-font-size;
+        }
+
+        a:hover {
+            @include default-hover();
+        }
+    }
+}
+
+// navbar End
+
+// Slider Start
+
+.slider {
+    display: flex;
+    width: 100%;
+    // background-color: $default-secondary-color;
+    padding: $default-padding;
+
+    .slider-box {
+        border: $default-border;
+        border-radius: $default-border-radius;
+    }
+
+    video {
+        // width: 500px;
+
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// Slider End

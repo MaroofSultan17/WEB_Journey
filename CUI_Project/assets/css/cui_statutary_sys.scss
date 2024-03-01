@@ -1,0 +1,101 @@
+.statury {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+
+    // First Column Start
+    .statury-info {
+        width: 65%;
+        padding: $default-padding;
+
+        h3 {
+            font-family: $default-font-family;
+            font-size: $default-font-size;
+            margin: 5px 5px;
+        }
+
+        ul {
+            margin: 5px 30px;
+        }
+
+        li {
+            margin: 10px 0px;
+            text-align: justify;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: $default-a-tag-color;
+            font-family: $default-font-family;
+        }
+
+        a:hover {
+            color: black;
+        }
+    }
+
+    // First Column End
+
+
+
+    // Second column Start
+    .side-box {
+        justify-content: center;
+        width: 50%;
+        margin: 30px 20px;
+        padding: $default-padding;
+        border-radius: $default-border-radius;
+
+        img {
+            margin: 20px 60px;
+            margin-bottom: 10px;
+            height: 300px;
+            width: 400px;
+        }
+
+        .info-side-box {
+            width: 400px;
+            margin: 10px 50px;
+            // border-radius: $default-border-radius;
+            background-color: $default-hover-color;
+            padding: $default-padding;
+
+            h1 {
+                margin: 10px 20px;
+                text-align: left;
+                font-family: $default-font-family;
+                font-weight: normal;
+            }
+
+            ul {
+                margin: 10px 40px;
+                padding: $default-padding;
+            }
+
+            li {
+                font-size: $default-font-size;
+                font-family: $default-font-family;
+            }
+
+            p {
+                font-family: $default-font-family;
+                font-size: $default-font-size;
+                margin: 10px 20px;
+            }
+
+            a {
+                color: $default-a-tag-color;
+                text-decoration: none;
+            }
+
+            a:hover {
+                cursor: pointer;
+                color: black;
+            }
+        }
+    }
+
+    // Second column END
+}

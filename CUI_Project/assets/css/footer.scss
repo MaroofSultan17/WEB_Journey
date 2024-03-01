@@ -1,0 +1,85 @@
+.footer {
+    display: flex;
+    // position: fixed;
+    // left: 0px;
+    // bottom: 0px;
+    width: 100%;
+    padding: $default-padding;
+    justify-content: space-between;
+    background-color: $default-fotter-bg-color;
+
+    .text-section {
+        width: 30%;
+
+        h2 {
+            font-family: $default-font-family;
+            size: $default-font-size;
+            color: $default-primary-color;
+        }
+
+        p {
+            font-family: $default-font-family;
+            color: $default-primary-color;
+            text-align: justify;
+        }
+
+        Button {
+            background-color: $default-primary-color;
+            font-family: $default-font-family;
+            margin: 10px 0px;
+            width: 100px;
+            height: 30px;
+        }
+
+        Button:hover {
+            background-color: #c1c1c1;
+        }
+    }
+
+    .address-section {
+        width: 30%;
+        // display: flex;
+        // justify-content: center;
+
+        h2 {
+            font-family: $default-font-family;
+            size: $default-font-size;
+            color: $default-primary-color;
+            text-align: center;
+        }
+
+        p {
+            font-family: $default-font-family;
+            color: $default-primary-color;
+            text-align: center;
+        }
+        pre{
+            font-family: $default-font-family;
+            color: $default-primary-color;
+            text-align: center;
+        }
+    }
+
+    .map-section {
+        width: 30%;
+
+        h2 {
+            margin: 0px 30px;
+            font-family: $default-font-family;
+            size: $default-font-size;
+            color: $default-primary-color;
+            text-align: right;
+        }
+        iframe{
+            margin: 5px 0px;
+            width: 350px;
+        }
+        hr{
+            background-color: #eee;
+        }
+    }
+    .footer-box{
+        display: "inline-flexbox";
+        color: white;
+    }
+}
